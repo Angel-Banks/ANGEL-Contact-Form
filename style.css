@@ -1,0 +1,30 @@
+
+form {
+    max-width: 600px;
+    background-color: tomato;
+    margin: 100px auto;
+    padding: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+form div input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid 4px yellow;
+    outline: 0;
+    background-color: aqua;
+
+
+}
+
+form div input:focus {
+    border-color: green;
+
+}
+
+form span input {
+    width: 100px
+}
